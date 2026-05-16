@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
+    "postinstall": "prisma generate",
     "build": "npm prisma generate && next build",
     "start": "next start"
   },
