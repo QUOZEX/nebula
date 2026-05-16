@@ -1,0 +1,25 @@
+
+{
+  "name": "nebula-build",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@webcontainer/api": "^1.1.8",
+    "@prisma/client": "^6.0.0",
+    "@clerk/nextjs": "^6.0.0",
+    "axios": "^1.7.0",
+    "stripe": "^18.0.0",
+    "bullmq": "^5.0.0",
+    "ioredis": "^5.0.0",
+    "jszip": "^3.10.1"
+  }
+}
